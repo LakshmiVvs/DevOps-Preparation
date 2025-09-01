@@ -1,0 +1,21 @@
+Day1---
+-------------------------what is SDLC model?--------------------------------
+Software Development Lifecycle
+this is Business Analyst responsibility(BA)
+1.Business
+2.Requirements gathering
+3.Planning and Designing
+4.Implementation
+5.Deployment
+6.Testing
+7.Release into public
+
+Maintanance
+
+--------------what is waterfall model------------------------------------
+waterfall model is a linear and sequential process of software devlopment
+where each phase like Requirements,Planning and Designing, Implementation
+Deployment,Testing, and maintance must be completed to the next.once the 
+phase is finished going back is very deficult and costly.
+                 
+
