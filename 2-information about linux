@@ -1,0 +1,96 @@
+------------------what is computer----------------------
+computer is an IP enabled device.communication between two computer
+using ip address.like servers mobiles,laptops,washing mechines,AC's 
+etc..these are all called computers.based on the use we can call 
+it different names
+Server -> hosting the applications
+Computer -> Internet browsing, songs, videos, banking, etc
+Mobile -> Calling, Social media, etc.
+ In computer we have RAM, CPU(processor), Storage, OS.
+ RAM, CPU(processor), Storage---these are called hardware.
+ OS---It is bridge between hardware and software.
+ 
+ Windows
+=========
+heavy graphics
+more Cost
+Slow
+heavy resources consumption
+performance -> frequent restarts
+Security -> Anti virus installation is mandatory
+upgrade to other version is little tough
+
+Linux Server edition
+===================
+Opensource
+Free
+no graphics, only text
+super fast
+less resources -> 9MB of OS can be installed
+run for years without restart
+by default security is present in OS
+upgrade is easy
+Learning curve.
+
+Availability zone---isolation data centers in a region is called AZ.
+Region---------region is nothing but a geographycal area.region has 
+multiple AZ, atleast 2 AZ.
+what is cloud---cloud is nothing but a remote location.remote location
+is nothing but a data center.
+North virginia is the first AWS region. Cost is less compared to any 
+other regions us-east-1.
+
+EC2 -> Elastic compute cloud.In EC2 we have lot of components.
+
+AMI(Amazon machine image) -> OS.example-t2.micro or
+t3.micro --> free tier.t3.micro -> 2 CPU, 1GB RAM
+
+Firewall----using Scurity group we can setup this firewall.
+it will allow the incomming and outgoing traffics.
+
+authentication----what you know? -> Username and password
+what you have? -> Username, RSA/OTP/Google/Microsoft auth
+what you are? -> finger prints, retina, palm, etc.
+
+SSH -> Secure Shell.Port -> 22
+
+Client Server architecture
+==========================
+Whoever provide service they are servers
+
+Lawyer -> Servers
+Public -> Clients
+
+facebook.com server, client is browser
+
+Linux Server -> clients -> putty, mobaxterm, cmd, mac terminal, git bash, etc..
+
+git bash is one of the SSH client, git client and a mini linux in windows, etc.
+
+once we open git bash, it lands into user directory
+
+C:\Users\<your-lap-username>
+
+C:\Users\siva
+
+Windows -> \(backward)
+Linux -> /(forward)
+
+Git Bash -> You can run basic linux commands in windows, but not completely
+
+C:\devops\daws-86s
+
+cd /c/devops/daws-86s
+ 
+ssh-keygen -f <filename(daws-86s)>------>this command will create public and pravite keys 
+in daws-86s
+
+ssh -i <private-key name> ec2-user@98.80.251.7
+this command is use to connect the server.by default ec2-user is user.
+
+cd--change directory
+pwd--present working directory
+ls-l  list the files
+
+
+
