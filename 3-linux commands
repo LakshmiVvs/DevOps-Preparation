@@ -1,0 +1,123 @@
+to create a pub key and private key use (windows)-------ssh-keygen -f filename
+to connect the server ---ssh -i keyname ec2-user@pubipaddress
+
+gitbash also called as mini linux
+
+absolute path means --start from root directory
+relative path---make sure have that file exit
+
+commands syntax----<command name>  <input <option>
+input and option are some times mandatory  some times optional
+
+uname--use to print certine system information
+
+uname --help(see all options visible)
+
+pwd--present working directory
+
+$--denots normal user
+
+#--root user
+
+sudo su - -> I will land into root user home directory
+
+sudo su -> land into same directory as root
+
+
+/root --- root user home directory
+
+/home/username(ec2-user)
+
+cd --- change directory
+
+cd .. -- one step back
+
+pwd -- present working directory
+
+linx is uses CURD oparetions
+
+c-create
+U-update
+R-read
+D-delete
+
+to create the file--- touch <filenamd>
+
+list the file ---- ls
+
+all logs file are there in /var/log/
+ls --help
+ls -la --- all hidden file and directory
+ls -l --long list formate alphabetical order
+ls -lr -- reverse alphabetical order order
+ls -lt -- latest time files top
+ls -ltr -- oldest time files top
+
+information adding the file --- cat > filename (after press enter+d)
+
+> --- means redirections
+
+upend the information dont replace --- cat >> filename
+
+mkdir directoryname --- make directory
+
+rmdir directoryname ---- remove directory(empty directory)
+
+rm -r --- delete recursively(delete recursively, means delete the contents also inside
+ the directory)
+ 
+cp -- copy the file
+cp <sourcefile> <destinationfile>
+
+mv -- cut or move the file
+mv <sourcefile> <destinationfile>
+
+mv --- rename the file
+mv <oldfile name> <newfile name>
+
+. --- reprasent current directory
+
+to search the test ---- grep
+grep <word-to-search> <filename>
+grep -i <word-to-search> <filename> ----ignore the case
+grep -n <word-to-search> <filename> -----line num print
+grep -c <word-to-search> <filename> -----how many times that word print
+grep -v <word-to-search> <filename> ---- incert means not match
+
+to download the file --- wget <URL>
+curl <url> it will print the on the screen
+
+https://raw.githubusercontent.com/daws-86s/notes/refs/heads/main/session-02.txt
+above the url devided to /
+to print the content --- "echo hello devops"
+to cut the url using pipe(one command output is next command input)
+
+echo https://raw.githubusercontent.com/daws-86s/notes/refs/heads/main/session-02.txt | cut -d "/" f1
+echo https://raw.githubusercontent.com/daws-86s/notes/refs/heads/main/session-02.txt | cut -d "/" f2
+echo https://raw.githubusercontent.com/daws-86s/notes/refs/heads/main/session-02.txt | cut -d "/" f3
+f means fragments
+
+cut command can delimit the text and give us the required fragment
+
+awk -F "/" '{print $1}' --- split the data colume wise
+echo https://raw.githubusercontent.com/daws-86s/notes/refs/heads/main/session-02.txt | awk -F "/" '{print $Nf}'
+
+
+
+
+
+
+how to file extentions enable
+go to controlpanal-->small icons ---> file explorar options ---> view--> show hidden files 
+on and hide extentions un check
+~/.ssh/config
+config should not have any file extensions
+Host *
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+	
+home folder lo .ssh lo config anea file undali that place we can past it above lines.
+
+
+
+
